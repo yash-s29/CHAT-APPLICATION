@@ -60,5 +60,5 @@ In today’s digital world, real-time communication has become an integral part 
 
 <img width="2877" height="1368" alt="Image" src="https://github.com/user-attachments/assets/e872f845-23ca-492e-9e1b-f84023cb451c" />
 
-<img width="2863" height="1353" alt="Image" src="https://github.com/user-attachments/assets/964e9cf7-828c-48d5-a5b2-d3f34959dcce" />
+<img width="2828" height="1333" alt="Image" src="https://github.com/user-attachments/assets/8188f2bd-795f-4954-97d6-1ada94167169" />
 
