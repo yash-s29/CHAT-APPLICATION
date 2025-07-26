@@ -22,19 +22,19 @@ In today’s digital world, real-time communication has become an integral part 
 
 🛠️ Technologies Used:
 
-- The core technologies used in this project are:
+-- The core technologies used in this project are:
 
-Node.js – Server-side runtime environment for handling asynchronous code efficiently.
+- Node.js – Server-side runtime environment for handling asynchronous code efficiently.
 
-Express.js – Lightweight framework used to manage routes and server-side logic.
+- Express.js – Lightweight framework used to manage routes and server-side logic.
 
-Socket.IO – A powerful JavaScript library that enables real-time, bidirectional communication between web clients and servers.
+- Socket.IO – A powerful JavaScript library that enables real-time, bidirectional communication between web clients and servers.
 
-HTML, CSS, JavaScript – Frontend technologies used to build a responsive user interface.
+- HTML, CSS, JavaScript – Frontend technologies used to build a responsive user interface.
 
-VS Code – Development environment used for writing and debugging code.
+- VS Code – Development environment used for writing and debugging code.
 
-Git & GitHub – For version control and hosting the project online.
+- Git & GitHub – For version control and hosting the project online.
 
 🔄 How It Works:
 
@@ -57,4 +57,8 @@ Git & GitHub – For version control and hosting the project online.
 // This full-duplex communication ensures that users don't need to refresh or poll the server for new messages, significantly reducing latency and improving efficiency.
 
 # OUTPUT #
+
+<img width="2877" height="1368" alt="Image" src="https://github.com/user-attachments/assets/e872f845-23ca-492e-9e1b-f84023cb451c" />
+
+<img width="2863" height="1353" alt="Image" src="https://github.com/user-attachments/assets/964e9cf7-828c-48d5-a5b2-d3f34959dcce" />
 
