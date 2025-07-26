@@ -1,0 +1,84 @@
+/* Container for all messages */
+.messages {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: auto;
+  flex: 1;
+  background-color: #f0f0f0;
+  height: 100%;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+/* Scrollbar styling for WebKit browsers (Chrome, Edge, Safari) */
+.messages::-webkit-scrollbar {
+  width: 8px;
+}
+
+.messages::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.messages::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Scrollbar styling for Firefox */
+.messages {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+/* Message bubble (shared styles) */
+.messageBox {
+  display: inline-block;
+  padding: 12px 16px;
+  margin: 8px 0;
+  border-radius: 18px;
+  max-width: 75%;
+  word-wrap: break-word;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #fff;
+}
+
+/* Sent messages (your own) */
+.messageBox.sent {
+  background-color: #1976d2;
+  align-self: flex-end;
+  text-align: right;
+}
+
+/* Received messages (from others) */
+.messageBox.received {
+  background-color: #4caf50;
+  align-self: flex-start;
+  text-align: left;
+}
+
+/* Message text */
+.messageText {
+  color: white;
+  margin: 0;
+}
+
+/* Optional: Display sender name if needed */
+.messageSender {
+  font-size: 0.8rem;
+  color: #444;
+  margin-bottom: 2px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .messages {
+    padding: 10px;
+  }
+
+  .messageBox {
+    font-size: 0.95rem;
+    padding: 10px 14px;
+  }
+}

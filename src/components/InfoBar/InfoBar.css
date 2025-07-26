@@ -1,0 +1,75 @@
+/* InfoBar.css - Modern Chat Header */
+
+.infoBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #3a8dff;
+  color: #ffffff;
+  padding: 0 1.5rem;
+  height: 60px;
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+/* Left container: Online indicator + room name */
+.leftInnerContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.roomName {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+  color: #ffffff;
+}
+
+/* Online indicator */
+.onlineIcon {
+  height: 14px;
+  width: 14px;
+  background-color: #4caf50;
+  border-radius: 50%;
+}
+
+/* Right container: Logout button */
+.rightInnerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logoutButton {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #ff4d4d;
+  border: none;
+  color: #fff;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.logoutButton:hover {
+  background-color: #d93636;
+  transform: scale(1.05);
+}
+
+/* Logout icon inside button */
+.logoutIcon {
+  height: 16px;
+  width: 16px;
+}
+
+/* Optional logout text styling */
+.logoutText {
+  display: inline-block;
+}

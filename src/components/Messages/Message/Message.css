@@ -1,0 +1,77 @@
+/* src/components/Message/Message.css */
+
+.message-row {
+  display: flex;
+  align-items: flex-end;
+  margin: 10px 15px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  background-color: #666;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin: 0 8px;
+}
+
+.message-bubble {
+  max-width: 70%;
+  padding: 12px 16px;
+  border-radius: 18px;
+  font-size: 15px;
+  line-height: 1.4;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.own {
+  justify-content: flex-end;
+}
+
+.other {
+  justify-content: flex-start;
+}
+
+.own-bubble {
+  background-color: #1a73e8;
+  color: white;
+  border-bottom-right-radius: 4px;
+}
+
+.other-bubble {
+  background-color: #f1f3f4;
+  color: #202124;
+  border-bottom-left-radius: 4px;
+}
+
+.message-text {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.sender-name {
+  margin-top: 5px;
+  font-size: 11px;
+  color: #888;
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .message-bubble {
+    max-width: 85%;
+    font-size: 14px;
+  }
+
+  .avatar {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+  }
+}

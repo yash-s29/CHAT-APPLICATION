@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+html, body {
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-family: 'Righteous', cursive;
+  color: #ffffff;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.header h2,
+.header h4 {
+  font-size: 1.1rem;
+  margin-top: 6px;
+  color: #cce6ff;
+}
+
+.joinOuterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url('./images/shiny_happy.png') no-repeat center right;
+  background-size: 40rem 50rem;
+  padding-right: 5%;
+}
+
+.joinInnerContainer {
+  width: 26%;
+  min-width: 300px;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 20px;
+  padding: 40px 30px;
+  backdrop-filter: blur(14px);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.4s ease;
+}
+
+.joinInnerContainer:hover {
+  transform: scale(1.02);
+}
+
+.heading {
+  font-size: 2rem;
+  color: #e0f7fa;
+  margin-bottom: 25px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 12px;
+}
+
+.joinInput {
+  width: 100%;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.joinInput:focus {
+  border-color: #6e8efb;
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.joinInput::placeholder {
+  color: #e0e0e0;
+}
+
+.button {
+  width: 100%;
+  padding: 14px 0;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  box-shadow: 0 5px 20px rgba(110, 142, 251, 0.3);
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #5b73e8, #945be9);
+  box-shadow: 0 8px 25px rgba(110, 142, 251, 0.45);
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .joinOuterContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+    padding: 20px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .joinInnerContainer {
+    width: 90%;
+    padding: 30px 20px;
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .heading {
+    font-size: 1.8rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .joinInput {
+    font-size: 0.95rem;
+  }
+
+  .button {
+    font-size: 0.95rem;
+  }
+}

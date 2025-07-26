@@ -1,0 +1,81 @@
+/* TextContainer.css - updated with better colors, layout, and responsiveness */
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  margin-left: 100px;
+  color: #e0e6f1;
+  height: 100%;
+  justify-content: flex-start;
+  background: linear-gradient(145deg, #1c1f3a, #2e2b5f);
+  border-left: 2px solid #3b3f65;
+  overflow-y: auto;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.4);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.infoSection {
+  margin-bottom: 30px;
+}
+
+.infoSection h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.infoSection h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #b0b4d6;
+}
+
+.usersSection {
+  margin-top: 40px;
+}
+
+.usersSection h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: #f3f3f3;
+}
+
+.activeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.activeItem {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  background-color: #383b65;
+  color: #ffffff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.activeItem:hover {
+  background-color: #4c4f88;
+  transform: translateY(-2px);
+}
+
+.activeItem img {
+  margin-left: 12px;
+  width: 22px;
+  height: 22px;
+  filter: brightness(1.2);
+}
+
+/* Hide text container on smaller devices */
+@media (max-width: 1200px) {
+  .textContainer {
+    display: none;
+  }
+}
