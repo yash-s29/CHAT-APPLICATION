@@ -14,13 +14,13 @@
 
 ## DESCRIPTION ##
 
-🔹 Introduction:
+# 🔹 Introduction:
 
 The Chat Application is a real-time messaging platform developed using modern web technologies like Node.js, Socket.IO, Express, and JavaScript. It enables users to communicate instantly over the web in a minimal, responsive, and scalable interface. This project is designed to demonstrate the power of web sockets for creating live communication systems, which are essential for modern collaborative tools, chat rooms, and interactive platforms.
 
 In today’s digital world, real-time communication has become an integral part of many services—ranging from customer support systems and gaming platforms to collaborative workspaces. The purpose of this application is to simulate a basic chat room where multiple users can connect, send messages, and receive updates instantly.
 
-🛠️ Technologies Used:
+# 🛠️ Technologies Used:
 
 -- The core technologies used in this project are:
 
@@ -36,7 +36,7 @@ In today’s digital world, real-time communication has become an integral part 
 
 - Git & GitHub – For version control and hosting the project online.
 
-🔄 How It Works:
+# 🔄 How It Works:
 
 // The communication model in this application is based on WebSockets, facilitated by Socket.IO.
 
