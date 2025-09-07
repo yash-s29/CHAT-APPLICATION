@@ -1,5 +1,3 @@
-/* InfoBar.css - Modern Chat Header */
-
 .infoBar {
   display: flex;
   align-items: center;
@@ -15,7 +13,6 @@
   box-sizing: border-box;
 }
 
-/* Left container: Online indicator + room name */
 .leftInnerContainer {
   display: flex;
   align-items: center;
@@ -29,7 +26,6 @@
   color: #ffffff;
 }
 
-/* Online indicator */
 .onlineIcon {
   height: 14px;
   width: 14px;
@@ -37,7 +33,6 @@
   border-radius: 50%;
 }
 
-/* Right container: Logout button */
 .rightInnerContainer {
   display: flex;
   align-items: center;
@@ -63,13 +58,11 @@
   transform: scale(1.05);
 }
 
-/* Logout icon inside button */
 .logoutIcon {
   height: 16px;
   width: 16px;
 }
 
-/* Optional logout text styling */
 .logoutText {
   display: inline-block;
 }
