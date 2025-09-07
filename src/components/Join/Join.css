@@ -122,7 +122,6 @@ button:focus {
   outline: none;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .joinOuterContainer {
     flex-direction: column;
